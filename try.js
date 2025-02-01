@@ -26,28 +26,6 @@ da.sayName();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function logger() {
     const phan = "Flex"
     console.log("Flex");
