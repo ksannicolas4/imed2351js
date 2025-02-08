@@ -74,10 +74,10 @@ function exampleFunction(param1, param2) {
 
 
   function modifyObject(obj) {
-    obj.value = 10; // Modifies the original object
-    obj = { value: 20 }; // Reassigns the parameter, doesn't affect the original
+    obj.value = 10;
+    obj = { value: 20 }; 
   }
   
-  let myObject = { value: 5 };
-  modifyObject(myObject);
-  console.log(myObject.value); // Output: 10
+  let exObject = { value: 5 };
+  modifyObject(exObject);
+  console.log(exObject.value); // Output: 10
