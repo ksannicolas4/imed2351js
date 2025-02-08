@@ -60,9 +60,24 @@ function adder(num1, num2) {
 adder(8,10);
 
 
+//////////////////////////////////////////
+
+function exampleFunction(param1, param2) {
+    console.log("Parameter 1:", param1);
+    console.log("Parameter 2:", param2);
+    return param1 + param2;
+  }
+  
+  let result = exampleFunction(5, 7);
+  console.log("Result:", result);
 
 
 
-
-
-
+  function modifyObject(obj) {
+    obj.value = 10; // Modifies the original object
+    obj = { value: 20 }; // Reassigns the parameter, doesn't affect the original
+  }
+  
+  let myObject = { value: 5 };
+  modifyObject(myObject);
+  console.log(myObject.value); // Output: 10
