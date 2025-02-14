@@ -81,3 +81,17 @@ function exampleFunction(param1, param2) {
   let exObject = { value: 5 };
   modifyObject(exObject);
   console.log(exObject.value); // Output: 10
+
+
+
+  
+//////////////////////////////////////////array////////////////////////////////
+const todo = ["Work", "Gym", "School", "Homework"];
+
+console.log (todo[3]);
+
+todo.push ('Added');
+console.log (todo);
+console.log (todo.indexOf("Homework"));
+console.log(Homework);
+console.log(todo[Homework]);
