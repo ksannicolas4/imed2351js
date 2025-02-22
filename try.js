@@ -86,6 +86,7 @@ function exampleFunction(param1, param2) {
 
   
 //////////////////////////////////////////array////////////////////////////////
+
 const todo = ["Work", "Gym", "School", "Homework"];
 
 console.log (todo[3]);
@@ -93,5 +94,35 @@ console.log (todo[3]);
 todo.push ('Added');
 console.log (todo);
 console.log (todo.indexOf("Homework"));
-console.log(Homework);
-console.log(todo[Homework]);
+
+
+////////////////////////////////////////////////loop//////////
+const fruit = ["Grapes", "Apples", "Tomatoes", "Oranges"];
+for (names of fruit) {
+    console.log (fruit);
+    if(names ==="Grapes")
+        console.log ("Grapes are purple")
+    console.log(`Juicey Fruit ${fruit}`)
+    
+}
+
+
+/////////////////////////while//////////////////////
+let loop = 0
+while (loop < 100) {
+    console.log ('Website is still loading');
+
+loop++; 
+}
+
+
+//////////////////////////////
+const text = document.querySelector (".one");
+const change = document.querySelector (".change");
+text.style.color = "white";
+text.style.backgroundColor = "purple";
+change.addEventListener("click", function() {
+    text.classList.toggle("colorchange");
+    
+
+});
