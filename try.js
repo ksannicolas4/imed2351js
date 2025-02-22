@@ -126,3 +126,11 @@ change.addEventListener("click", function() {
     
 
 });
+
+const material = document.querySelectorAll (".craft li")
+console.log(material);
+for(user of material) {
+    user.addEventListener("click", function(){
+        this.style.color = "pink";
+    });
+}
